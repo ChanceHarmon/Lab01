@@ -1,89 +1,58 @@
 #one {
   width: 480px;
   height: 75px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #555555;
-  background-color: #888888;
-  box-sizing: border-box;
+  background-color: red;
+  line-height: 75px;
 }
 #two {
   width: 480px;
   height: 150px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #555555;
-  background-color: #888888;
-  box-sizing: border-box;
+  background-color: blue;
+  line-height: 150px;
 }
 #three {
   width: 480px;
   height: 125px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #555555;
-  background-color: #888888;
-  box-sizing: border-box;
+  background-color: green;
+  line-height: 125px;
 }
 #four {
   width: 480px;
   height: 125px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #555555;
-  background-color: #888888;
-  box-sizing: border-box;
+  background-color: yellow;
+  line-height: 125px;
 }
 
 #five {
   width: 240px;
   height: 250px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #555555;
-  background-color: #888888;
-  box-sizing: border-box;
+  background-color: black;
+  line-height: 250px;
 }
 #six {
   width: 240px;
   height: 250px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #555555;
-  background-color: #888888;
-  box-sizing: border-box;
-  position: absolute;
-  left: 240px;
-  top: 475px;
-
+  background-color: white;
+  line-height: 250px;
 }
 #seven {
   width: 240px;
   height: 250px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #555555;
-  background-color: #888888;
-  box-sizing: border-box;
+  background-color: purple;
+  line-height: 250px;
 }
 #eight {
   width: 240px;
   height: 250px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #555555;
-  background-color: #888888;
-  box-sizing: border-box;
-  position: absolute;
-  left: 240px;
-  top: 725px;
+  background-color: cyan;
+  line-height: 250px;
 }
 #nine {
   width: 480px;
   height: 80px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #555555;
-  background-color: #888888;
-  box-sizing: border-box;
+  background-color: orange;
+  line-height: 80px;
 }
+  
+   
+  
