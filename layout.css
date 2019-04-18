@@ -1,12 +1,18 @@
 body{
   width: 480px;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: baseline; */
+  
 }
 div {
-  float: left;
   margin: 0;
-  text-align: center;
-  vertical-align: middle;
+  /* text-align: center;
+  vertical-align: middle; */
+  justify-content: center;
+  align-content: center;
 }
+
 @media only screen and (min-width:768px) {
   body {
     width: 960px;
