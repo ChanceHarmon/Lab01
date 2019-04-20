@@ -15,10 +15,19 @@ div {
 
 @media only screen and (min-width:768px) {
   body {
+    flex-wrap: wrap;
     width: 960px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+    
   }
   div {
-    
-
-  }
+    margin: 0;
+    /* text-align: center;
+    vertical-align: middle; */
+    justify-content: center;
+    align-content: center;
+  
 }
