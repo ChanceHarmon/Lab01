@@ -1,134 +1,108 @@
-#one {
-  display: flex;
-  width: 100%;
-  height: 75px;
-  background-color: red;
-  line-height: 75px;
-}
-#two {
-  display: flex;
-  width: 100%;
-  height: 150px;
+header, aside, section, footer {
+  grid-column-start: span 2;
+  }
+
+header {
+  grid-row-start: 1;
   background-color: blue;
-  line-height: 150px;
 }
-#three {
-  display: flex;
-  width: 100%;
-  height: 125px;
+
+aside {
+  grid-row-start: 2;
   background-color: green;
-  line-height: 125px;
 }
-#four {
-  display: flex;
-  width: 100%;
-  height: 125px;
+
+section {
+  grid-row-start: 3;
   background-color: yellow;
-  line-height: 125px;
 }
 
-#five {
-  display: flex;
-  
-  width: 50%;
-  height: 250px;
-  background-color: black;
-  line-height: 250px;
+section:nth-child(4) {
+  grid-row-start: 4;
+  background-color: grey;
 }
-#six {
-  display: flex;
-  
-  width: 50%;
-  height: 250px;
-  background-color: white;
-  line-height: 250px;
+
+article {
+  grid-column-start: 1;
+  grid-row-start: 5;
+  background-color: navajowhite;
 }
-#seven {
-  display: flex;
-  
-  width: 50%;
-  height: 250px;
-  background-color: purple;
-  line-height: 250px;
+
+article:nth-child(6) {
+  grid-column-start: 2;
+  grid-row-start: 5; 
+  background-color:purple
 }
-#eight {
-  display: flex;
-  
-  width: 50%;
-  height: 250px;
+
+article:nth-child(7), article:nth-child(8)  {
+  grid-row-start: 6;
+  }
+
+article:nth-child(7) {
+  grid-column-start: 1;
   background-color: cyan;
-  line-height: 250px;
 }
-#nine {
-  display: flex;
-  width: 100%;
-  height: 80px;
-  background-color: orange;
-  line-height: 80px;
+
+article:nth-child(8) {
+  grid-column-start: 2;
+  background-color:orange;
 }
-@media only screen and (min-width:768px) {
-  #one {
-    display:flex;
-    width: 960px;
-    height: 100px;
-    background-color: blue;
-    
-  }
-  #two {
-    display:flex;
-    width: 200px;
-    height: 600px;
-    background-color: green;
-    
-  }
-  #three {
-    display:flex;
-    width: 380px;
-    height: 200px;
+
+footer {
+  grid-row-start: 7;
+  background-color: red;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    grid-column-start: span 5;
     background-color: red;
-    
-  }
-  #four {
-    display:flex;
-    width: 380px;
-    height: 200px;
-    background-color: black;
-    
-  }
-  
-  #five {
-    display:flex;
-    width: 190px;
-    height: 250px;
-    background-color: yellow;
-    
-  }
-  #six {
-    display:flex;
-    width: 190px;
-    height: 250px;
-    background-color: purple;
-    
-  }
-  #seven {
-    display:flex;
-    width: 190px;
-    height: 250px;
-    background-color: white;
-  }
-  #eight {
-    display:flex;
-    width: 190px;
-    height: 250px;
-    background-color: orange;
-    
-  }
-  #nine {
-    display:flex;
-    width: 760px;
-    height: 150px;
-    background-color: cyan;
-    
   }
 
+  aside {
+    grid-column-start: 1;
+    grid-row: 2 / 5;
+    background-color:blue;
+  }
+
+  section {
+    grid-row-start: 2;
+    background-color: yellow;
+  }
+
+  section:nth-child(4) {
+    grid-row-start: 2;
+    grid-column: 4 / 6;
+    background-color:green;
+  }
+
+  article, article:nth-child(6), article:nth-child(7), article:nth-child(8) {
+    grid-row-start: 3;
+    }
+
+  article {
+    grid-column-start: 2;
+    background-color: navajowhite;
+  }
+
+  article:nth-child(6) {
+    grid-column-start: 3;
+    background-color:grey;
+  }
+
+  article:nth-child(7) {
+    grid-column-start: 4;
+    background-color:orange;
+  }
+
+  article:nth-child(8) {
+    grid-column-start: 5;
+    background-color:cyan;
+  }
+
+  footer {
+    grid-column: 2 / 6;
+    grid-row-start: 4;
+    background-color:purple;
+  } 
 }
